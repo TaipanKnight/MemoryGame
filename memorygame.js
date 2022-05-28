@@ -368,12 +368,3 @@ drawButtonArea();
 drawAllCards('Back'); // {Alternative: Cards Face Down}
 //drawAllCards('Front'); // {Alternative: Cards Face Up}
 //startGame(); // Will shuffle cards
-
-/* Still to do
-	*follow specification - on track now :)
-	*optimize algorithms - pretty good so far!!!
-		-check results algorithm
-	* Comment Functions to Specification!!!!
-	* Fix being able to play after game over
-	* fix button disabling 
-*/
