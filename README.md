@@ -1,6 +1,8 @@
 # MemoryGame
 Card Flip Memory Game in JavaScript
 
+Cards are Cult Movie Cards by Human After All: https://cultmoviecards.com/
+
 live preview here:
 https://htmlpreview.github.io/?https://github.com/TaipanKnight/MemoryGame/blob/main/memorygame.html
 
