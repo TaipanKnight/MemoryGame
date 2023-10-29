@@ -1,14 +1,21 @@
+<!DOCTYPE html>
 <html>
-<meta charset="UTF-8" />
 <head>
-	<title>Memory Game</title>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body style='background-color:#d4d4d4;'>
-	<div id='titleArea' align='center'></div>
-	<hr>
-	<div id='gameArea' align='center'></div>
-	<div id='buttonArea' align='center'></div>
-	
-	<script src='memorygame.js'></script>
+<body style="background-color: #d4d4d4;">
+    <div id="titleArea" align="center"></div>
+    <hr>
+    <div id="gameArea" align="center"></div>
+    <div id="buttonArea" align="center">
+        <button id="gameButton" onclick="startOrStopGame()">Start Game</button>
+        <button id="showButton" onclick="showOrFlipCards()">Show Cards</button>
+    </div>
+
+    <!-- Place the script at the end of the body for better performance -->
+    <script src="memorygame.js"></script>
 </body>
 </html>
+

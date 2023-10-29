@@ -1,0 +1,47 @@
+/* Apply a basic style to the title */
+#titleArea h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+    color: #333;
+}
+
+/* Style the game area (table) */
+#gameArea table {
+    border-collapse: collapse;
+}
+
+#gameArea td {
+    width: 86px;
+    height: 119px;
+    text-align: center;
+}
+
+#gameArea img {
+    width: 85px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+/* Style buttons */
+#buttonArea button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: #0077FF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#buttonArea button:hover {
+    background-color: #0055DD;
+}
+
+/* Apply styles for the body background */
+body {
+    background-color: #d4d4d4;
+}
+
+/* Add other custom styles as needed */
